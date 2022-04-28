@@ -31,6 +31,13 @@
 [这里](qwq)
 观察魔法
 
+公告：本站使用
+[hack.chat](https://beta.hack.chat/?zzzzzyc.github.io_chat)
+与
+[bjjh201703.com](http://bjjh201703.com/col.jsp?id=121)
+(我的班级网站)
+进行反馈
+
 <script type="text/javascript" src="busuanzi.js"></script>    
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>  
@@ -49,3 +56,5 @@
 
 Copyright © 2022 zzzzzyc All Rights Reserved. 
 [反馈](http://bjjh201703.com/col.jsp?id=121)
+或
+[高级反馈](https://beta.hack.chat/?zzzzzyc.github.io_chat)
