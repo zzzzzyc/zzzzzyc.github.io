@@ -28,7 +28,7 @@
 到达扩展坞
 
 点击
-[这里](qwq）
+[这里](qwq)
 观察魔法
 
 <script type="text/javascript" src="busuanzi.js"></script>    
