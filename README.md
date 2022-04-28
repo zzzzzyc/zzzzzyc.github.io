@@ -6,8 +6,8 @@
 感谢diandaokongge提供的张一川转部分
 
 你可以在
-[这里](zzzzzyc.github.io/zyc)
-找到他
+[这里](https://zzzzzyc.github.io/zyc)
+找到张一川转
 
 点击
 [这里](https://diandaokongge.github.io)
@@ -28,7 +28,7 @@
 到达扩展坞
 
 点击
-[这里](qwq0
+[这里](qwq）
 观察魔法
 
 <script type="text/javascript" src="busuanzi.js"></script>    
