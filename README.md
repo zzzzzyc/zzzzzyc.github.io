@@ -17,7 +17,7 @@ zzzzzyc.github.io/zyc
 [这里](http://bjjh201703.com)
 到达我的班级网站
 
-https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/%E4%B8%8B%E8%BD%BD.png
+![](https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/%E4%B8%8B%E8%BD%BD.png)
 
 点击
 [这里](54188)
