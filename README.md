@@ -1,12 +1,12 @@
-欢迎来到张一川的站点
-我是张一川，一名学生
+# 欢迎来到张一川的站点
+## 我是张一川，一名学生
 
-这是我的网站哈
+### 这是我的网站哈
 
 感谢diandaokongge提供的张一川转部分
 
 你可以在
-zzzzzyc.github.io/zyc
+[这里](zzzzzyc.github.io/zyc)
 找到他
 
 点击
@@ -26,6 +26,10 @@ zzzzzyc.github.io/zyc
 点击
 [这里](hub)
 到达扩展坞
+
+点击
+[这里](qwq0
+观察魔法
 
 <script type="text/javascript" src="busuanzi.js"></script>    
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
