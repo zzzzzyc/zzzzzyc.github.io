@@ -7,7 +7,7 @@
 Thanks to diandaokengge for the part of Zhang Yichuan
 
 You can click
-[here](https://zzzzzyc.github.io/zyc)
+[here](https://zzzzzyc.github.io/en/zyc)
 Find Zhang Yichuan
 
 click
