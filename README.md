@@ -39,7 +39,7 @@
 进行反馈
 
 if you want english
-[click here](/en/README_en)
+[click here](/README_en)
 
 <script type="text/javascript" src="busuanzi.js"></script>    
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
