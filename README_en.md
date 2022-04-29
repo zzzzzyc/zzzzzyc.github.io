@@ -1,0 +1,58 @@
+# Welcome to Zhang Yichuan's website
+
+## I'm Zhang Yichuan, a chinese student
+
+### This is my website
+
+Thanks to diandaokengge for the part of Zhang Yichuan
+
+You can click
+[here](https://zzzzzyc.github.io/en/zyc)
+Find Zhang Yichuan
+
+click
+[here](https://diandaokongge.github.io)
+Arrive at diandaogongge's website
+
+click
+[here](http://bjjh201703.com )
+Arrive at my class website
+
+! []( https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/%E4%B8%8B%E8%BD%BD.png )
+
+click
+[here](54188)
+Enjoy the meteor shower
+
+click
+[here](hub_en)
+Arrive at docking station
+
+click
+[here](qwq)
+Observe magic
+
+Announcement: this site is used
+[hack.chat]( https://beta.hack.chat/?zzzzzyc.github.io_chat )
+And
+[bjjh201703.com]( http://bjjh201703.com/col.jsp?id=121 )
+(my class website)
+Give feedback
+
+<script type="text/javascript" src="busuanzi.js"></script>    
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>  
+Total visits:
+<span id="busuanzi_container_site_uv">
+Number of visitors < span id = "busuanzi_value_site_uv" > < / span > people
+</span>
+Page views:
+<span id="busuanzi_container_page_pv">
+This article has been read < span id = "busuanzi_value_page_pv" > < / span > times
+</span>
+<span id="runtime_span"></span><script type="text/javascript">function show_ Runtime () {{window. Setttimeout ("show your runtime (), 1000); X = new date (" 04 / 27 / 2022 2, 21:04:00:00 21:04:00, 21:04:00, 21:04:00, 2004 / 27 / 2022 2, 21:04:00:00 on the same day); y = new date (); y = new date () time (y.getttime() - X. getttime ()); t = (x.getttime ()); t = (t.getttime())) (t-time() () samesame as the same as the "show" runtime(), 1000); X = new date ("04 / 27 / 27 / 27 / 2022, 2, 21:04:04:00:00); y = new date (); t = (y. Getttime()); m = 24 * 60; m = 24 * 60 * 60 * 60; m = 60; 60; t = time = new date date date (); t = (t =. Gettime())); t = (t = (t =. Time is+" seconds "}show_ runtime();</ script> 
+
+  Copyright  ©  2022 zzzzzyc All Rights Reserved. 
+[feedback]（ http://bjjh201703.com/col.jsp?id=121 )
+or
+[advanced feedback]（ https://beta.hack.chat/?zzzzzyc.github.io_chat )
