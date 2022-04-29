@@ -1,7 +1,0 @@
-# Website update record
-
-4.26 v0. 1
-
-4.27 v1. 0
-
-4.28 v1. 2
