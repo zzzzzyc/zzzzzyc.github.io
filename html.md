@@ -15,4 +15,7 @@
 5.
 [花雨](https://zzzzzyc.github.io/fr)
 
+6.
+[离子风暴](https://zzzzzyc.github.io/lzfb)
+
 @2022 zzzzzyc 版权所有
