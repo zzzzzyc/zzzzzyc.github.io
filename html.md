@@ -18,4 +18,7 @@
 6.
 [离子风暴](https://zzzzzyc.github.io/lzfb)
 
+7.
+[烟花](https://zzzzzyc.github.io/yh)
+
 @2022 zzzzzyc 版权所有
