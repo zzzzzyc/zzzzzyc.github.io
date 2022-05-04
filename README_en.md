@@ -42,15 +42,19 @@ Give feedback
 <script type="text/javascript" src="busuanzi.js"></script>    
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>  
-Total visits:
+
+
+：  
 <span id="busuanzi_container_site_uv">
-Number of visitors < span id = "busuanzi_value_site_uv" > < / span > people
+  Total number of visitors<span id="busuanzi_value_site_uv"></span>人
 </span>
-Page views:
+
+visitor volume：  
 <span id="busuanzi_container_page_pv">
-This article has been read < span id = "busuanzi_value_page_pv" > < / span > times
+  Reading volume of this article<span id="busuanzi_value_page_pv"></span>次
 </span>
-<span id="runtime_span"></span><script type="text/javascript">function show_ Runtime () {{window. Setttimeout ("show your runtime (), 1000); X = new date (" 04 / 27 / 2022 2, 21:04:00:00 21:04:00, 21:04:00, 21:04:00, 2004 / 27 / 2022 2, 21:04:00:00 on the same day); y = new date (); y = new date () time (y.getttime() - X. getttime ()); t = (x.getttime ()); t = (t.getttime())) (t-time() () samesame as the same as the "show" runtime(), 1000); X = new date ("04 / 27 / 27 / 27 / 2022, 2, 21:04:04:00:00); y = new date (); t = (y. Getttime()); m = 24 * 60; m = 24 * 60 * 60 * 60; m = 60; 60; t = time = new date date date (); t = (t =. Gettime())); t = (t = (t =. Time is+" seconds "}show_ runtime();</ script> 
+
+### <span id="runtime_span"></span><script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("04/27/2022 21:04:00");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="This station is in operation: "+A+"d"+B+"h"+C+"min"+D+"sec"}show_runtime();</script> 
 
   Copyright  ©  2022 zzzzzyc All Rights Reserved. 
 [feedback]（ http://bjjh201703.com/col.jsp?id=121 )
