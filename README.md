@@ -38,7 +38,7 @@
 (我的班级网站)
 进行反馈
 
-if you want english
+if you want english mode
 [click here](/README_en)
 
 <script type="text/javascript" src="busuanzi.js"></script>    
