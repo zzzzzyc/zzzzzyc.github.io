@@ -19,6 +19,10 @@
 
 ![](https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/%E4%B8%8B%E8%BD%BD.png)
 
+![](https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/zycapp.png)
+
+第二个是自制安卓app
+
 点击
 [这里](54188)
 欣赏流星雨
