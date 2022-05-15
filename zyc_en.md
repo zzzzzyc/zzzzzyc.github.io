@@ -1,20 +1,10 @@
-hi l'm zzzzzyc
-
-
-
 Hello, my name is zzzyc (qwq)
-
-
-
-I'm a chinese
 
 
 
 I am a Chinese
 
 
-
-(there is no english after this sentence.so now you shud click the close button!)
 
 Next, there is a paragraph of my readme
 
