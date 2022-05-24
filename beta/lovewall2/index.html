@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表白墙</title>
+</head>
+<body>
+    <div class="container">
+        <h1>表白墙</h1>
+        <p>输入后点击提交，会将信息显示在表格中</p>
+        <div class="row">
+            <span>谁：</span>
+            <input type="text" class="edit">
+        </div>
+        <div class="row" >
+            <span>对谁：</span>
+            <input type="text" class="edit">
+        </div>
+        <div class="row">
+            <span>说什么：</span>
+            <input type="text" class="edit">
+        </div>
+        <div class="row">
+            <input type="button" value="提 交" id="submit">
+        </div>
+        <script>
+            let submitButton=document.querySelector('#submit');
+            submitButton.onclick=function(){
+                //1.先获取到编辑框的内容
+                let edits=document.querySelectorAll('.edit');
+                //依靠.value来获得其输入框的值
+                let from=edits[0].value;
+                let to=edits[1].value;
+                let message=edits[2].value;
+                console.log(from,to,message);
+                //这里是对用户输入进行合法的校验，看用户输入是否合法
+                if(from==''||to==' '||message==''){
+                    return;
+                }
+                //2.根据内容，构造HTML元素（.row里面包含用户输入的话）
+                //createElement:创建一个元素
+                let row=document.createElement('div');
+                row.className='row';
+                row.innerHTML=from+'对'+to+'说：'+message;
+                //3.把这个新的元素添加到DOM树上
+                let container=document.querySelector('.container');
+                container.appendChild(row);
+                //4.清空原来的输入框
+                for(let i=0;i<edits.length;i++){
+                    edits[i].value='';
+                }
+            }
+        </script>
+        <style>
+            /*去除浏览器默认样式：内边距，外边距，内边框和外边框不会撑大盒子*/
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            /*margin:0 auto :意思是 中央居中*/
+            .container{
+                width: 400px;
+                margin:0 auto;
+            }
+            /*padding:20px auto :h1标签：上下间距20*/
+            h1{
+               text-align:center;
+                padding:20px auto;
+            }
+            p{
+                text-align:center;
+                color:#666;
+                padding: 10px 0;
+                font-size:14px;
+            }
+            /*display:flex:基于弹性布局
+              justify-content:center:水平居中
+              align-items:center:垂直居中
+            */
+            .row{
+                height:50px ;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+            }
+            /*现在对于span和input的长度进行调整*/
+            span{
+                width:90px;
+                font-size: 20px;
+            }
+            input{
+                width:310px;
+                height: 40px;
+                font-size: 18px;
+            }
+            /*现在处理一下 提交 按钮
+             首先，提交按钮宽度和父元素一样宽
+             其次，设置字体颜色和背景颜色
+             然后，border:none:作用：为了去除黑边框
+                  border-radius:设置四个角角为圆矩形
+                  font-size:设置 提交 字体的大小
+            */
+
+            #submit{
+                width: 400px;
+                color: white;
+                background-color:orange;
+                border:none;
+                border-radius:5px;
+                font-size: 18px;
+            }
+            /*点击 提交 按钮 就会改变其背景颜色*/
+            #submit:active{
+                background-color: black;
+            }
+        </style>
+    </div>
+</body>
+</html>
