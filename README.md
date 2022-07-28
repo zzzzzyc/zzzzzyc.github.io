@@ -42,6 +42,10 @@
 (我的班级网站)
 进行反馈
 
+本站使用
+[知识共享零v1.0 通用 许可证](https://choosealicense.com/licenses/cc0-1.0/)
+进行开源(比颠倒空格的好)
+
 if you want english mode
 [click here](/README_en)
 
