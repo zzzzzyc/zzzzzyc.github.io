@@ -43,6 +43,9 @@ this website use
 [Creative Commons Zero v1.0 Universal](https://choosealicense.com/licenses/cc0-1.0/)
 (it's better then diandaokongge's)
 
+this web's short website is
+[http://dlj.bz/zycen](http://dlj.bz/zycen)
+
 <script type="text/javascript" src="busuanzi.js"></script>    
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>  
