@@ -46,6 +46,13 @@
 [知识共享零v1.0 通用 许可证](https://choosealicense.com/licenses/cc0-1.0/)
 进行开源(比颠倒空格的好)
 
+本网站短网址：
+[http://dlj.bz/zycweb](http://dlj.bz/zycweb)
+[http://dlj.bz/zycweb](http://dlj.bz/zycweb)
+[http://mtw.so/5IhSzW](http://mtw.so/5IhSzW)
+[https://dwz.tax/ghFQ](https://dwz.tax/ghFQ)
+均可到达本网站
+
 if you want english mode
 [click here](/README_en)
 
