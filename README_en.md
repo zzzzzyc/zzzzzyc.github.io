@@ -14,9 +14,6 @@ click
 [here](https://diandaokongge.github.io)
 Arrive at diandaogongge's website
 
-click
-[here](http://bjjh201703.com )
-Arrive at my class website
 
 ! []( https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/%E4%B8%8B%E8%BD%BD.png )
 
