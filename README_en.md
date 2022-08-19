@@ -31,9 +31,6 @@ Observe magic
 
 Announcement: this site is used
 [hack.chat]( https://beta.hack.chat/?zzzzzyc.github.io_chat )
-And
-[bjjh201703.com]( http://bjjh201703.com/col.jsp?id=121 )
-(my class website)
 Give feedback
 
 this website use
@@ -61,6 +58,6 @@ visitor volume：
 ### <span id="runtime_span"></span><script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("04/27/2022 21:04:00");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="This station is in operation: "+A+"d"+B+"h"+C+"min"+D+"sec"}show_runtime();</script> 
 
   Copyright  ©  2022 zzzzzyc All Rights Reserved. 
-[feedback]（ http://bjjh201703.com/col.jsp?id=121 )
-or
+  
+  
 [advanced feedback]（ https://beta.hack.chat/?zzzzzyc.github.io_chat )
