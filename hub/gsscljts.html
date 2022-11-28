@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>跟随鼠标移动的超链接提示信息</title>
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+<!--把下面代码加到<head>与</head>之间-->
+<script type="text/javascript">
+var c$={};
+var w$=function(s){document.write(s);}
+var o$=function(id){return document.getElementById(id);}
+w$("<div id=\"ts\" style=\"position:absolute;background-color:#FFFFE6;font-size:12px;padding:3px;border:1px solid #FFCC99;display:none;\"></div>");
+c$.mmove=function(o,s){
+	//alert(typeof(s));
+	var evt=event||window.event;
+	var x=evt.clientX+5;
+	var y=evt.clientY+20;
+	o$("ts").style.left=x+"px";
+	o$("ts").style.top=y+"px";
+	if(s==""||typeof(s)=="undefined"){
+		o$("ts").innerHTML=o.innerHTML;
+	}else{
+		o$("ts").innerHTML=s;
+	}
+	o$("ts").style.display="";
+}
+c$.mout=function(){
+	o$("ts").style.display="none";
+}
+</script>
+</head>
+<body>
+<!--把下面代码加到<body>与</body>之间-->
+<a href="#" onmousemove="c$.mmove(this,'网址：https://zzzzzyc.github.io');" onmouseout="c$.mout();">
+	<span style="color:blue;text-decoration:underline;">主页</span>
+</a>
+</body>
+</html>
