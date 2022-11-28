@@ -3,11 +3,6 @@
 
 ### 这是我的网站哈
 
-点击
-[这里](https://diandaokongge.github.io)
-到达diandaokongge的网站
-
-
 ![](https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/%E4%B8%8B%E8%BD%BD.png)
 
 ![](https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/zycapp.png)
