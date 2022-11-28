@@ -3,6 +3,8 @@
 
 ### 这是我的网站哈
 
+# [新 的 主 页](https://zzzzzyc.github.io/index_beta.html)
+
 ![](https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/%E4%B8%8B%E8%BD%BD.png)
 
 ![](https://raw.githubusercontent.com/zzzzzyc/zzzzzyc.github.io/main/zycapp.png)
