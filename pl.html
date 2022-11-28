@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8">
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+  <!-- ... -->
+  <title>评论区</title>
+</head>
+<body>
+  <p class = "wenzhi">这是个评论区<p>
+  <style type="pl/css">
+  .wenzhi{
+  font-size:30px;
+  font-weight:bolder;
+  }
+  </style>
+  <!-- ... -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://zycwebpinglunb-4ih3gvezq-zzzzzyc.vercel.app/',
+    });
+  </script>
+  
+</body>
