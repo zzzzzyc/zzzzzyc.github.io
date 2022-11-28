@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>个性的下雨网页背景</title>
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+<!--把下面代码加到<head>与</head>之间-->
+<style type="text/css">
+body {
+	background-image: url(http://www.zzsky.com/effect/images/20145/background.jpg);
+}
+</style>
+</head>
+<body>
+<!--把下面代码加到<body>与</body>之间-->
+<script language="javascript">
+var no = 50;
+var speed = 1;
+var s, x, y, sn, cs;
+var a, r, cx, cy;
+var i;
+clientW = document.body.clientWidth;
+clientH = document.body.clientHeight;
+x = new Array();
+y = new Array();
+r = new Array();
+cx = new Array();
+cy = new Array();
+s = 20;
+for (i = 0; i < no; ++ i) {
+	initRain();
+	document.write("<div id=dot"+ i +"  style='POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px'><font color='#FFFFFF'>.</font></div>");
+}
+function initRain() {
+	a = 6;
+	r[i] = 1;
+	sn = Math.sin(a);
+	cs = Math.cos(a);
+	cx[i] = Math.random() * clientW + 1;
+	cy[i] = Math.random() * clientH + 1;
+	x[i] = r[i] * sn + cx[i];
+	y[i] = cy[i];
+}
+function makeRain() {
+	r[i] = 1;
+	cx[i] = Math.random() * clientW + 1;
+	cy[i] = 1;
+	x[i] = r[i] * sn + cx[i];
+	y[i] = r[i] * cs + cy[i];
+}
+function updateRain() {
+	r[i] += s;
+	x[i] = r[i] * sn + cx[i];
+	y[i] = r[i] * cs + cy[i];
+}
+function raindropIE() {
+	for (i = 0; i < no; ++ i) {
+		updateRain();
+		if ((x[i] <= 1) || (x[i] >= (clientW - 20)) || (y[i] >= (clientH - 20))) {
+			makeRain();
+			clientW = document.body.clientWidth;
+			clientH = document.body.clientHeight;
+		}
+		document.all["dot"+i].style.top = y[i];
+		document.all["dot"+i].style.left = x[i];
+	}
+	setTimeout("raindropIE()", speed);
+}
+raindropIE();
+</script>
+</body>
+</html>
