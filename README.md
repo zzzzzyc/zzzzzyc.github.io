@@ -15,6 +15,8 @@
 
 ## 点击[这里](hub)到达扩展坞
 
+## [beta菜单](beta/beta_index.md)
+
 本网站短网址：
 
 [http://dlj.bz/zycweb](http://dlj.bz/zycweb)
