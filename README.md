@@ -3,12 +3,6 @@
 
 ### 这是我的网站哈
 
-感谢diandaokongge提供的张一川转部分
-
-你可以在
-[这里](https://zzzzzyc.github.io/zyc)
-找到张一川转
-
 点击
 [这里](https://diandaokongge.github.io)
 到达diandaokongge的网站
@@ -27,19 +21,6 @@
 点击
 [这里](hub)
 到达扩展坞
-
-点击
-[这里](qwq)
-观察魔法
-
-公告：本站使用
-[hack.chat](https://beta.hack.chat/?zzzzzyc.github.io_chat)
-
-进行反馈
-
-本站使用
-[知识共享零v1.0 通用 许可证](https://choosealicense.com/licenses/cc0-1.0/)
-进行开源(比颠倒空格的好)
 
 本网站短网址：
 
@@ -75,9 +56,11 @@ if you want english mode
 
 
 
-友情链接 [颠倒空格的个人网站](https://diandaokongge.github.io)  [北京建华2017三班](https://bjjh201703.com)  [三班新闻(没建好，想去也不拦)](https://jh3news.bjjh201703.com)
+友情链接 [颠倒空格的个人网站](https://diandaokongge.github.io)  [北京建华2017三班](https://bjjh201703.com)  [三班新闻(没建好，想去也不拦)](https://jh3news.bjjh201703.com)[张一川转](https://diandaokongge.github.io/zyc)
 
 
 Copyright © 2022 zzzzzyc All Rights Reserved. 
+
 [反馈](https://beta.hack.chat/?zzzzzyc.github.io_chat))
 
+[知识共享零v1.0 通用 许可证](https://choosealicense.com/licenses/cc0-1.0/)
