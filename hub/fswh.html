@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>分时问候</title>
+<meta http-equiv="content-Type" content="text/html;charset=gb2312">  
+</head>
+<body>
+<!--把下面代码加到<body>与</body>之间-->
+<script language="JavaScript">
+<!--
+var mess1="";
+document.write("<center><font color='#000000' size=4><b>")
+day = new Date( )
+hr = day.getHours( )
+if (( hr >= 0 ) && (hr <= 4 ))
+mess1="深夜了，注意身体,该休息了！"
+if (( hr >= 4 ) && (hr < 7))
+mess1="清晨好，这麽早就上网呀？！ "
+if (( hr >= 7 ) && (hr < 12))
+mess1="早上好，一天之际在于晨，又是美好的一天！"
+if (( hr >= 12) && (hr <= 13))
+mess1="该吃午饭啦！有什麽好吃的？"
+if (( hr >= 13) && (hr <= 17))
+mess1="外面的天气很热吧?！心静自然凉！ "
+if (( hr >= 17) && (hr <= 18))
+mess1="太阳落山了！快看看夕阳吧！"
+if ((hr >= 18) && (hr <= 19))
+mess1="吃过晚饭了吗？"
+if ((hr >= 19) && (hr <= 23))
+mess1="一天过的可真快！今天过的好吗？"
+document.write(mess1)
+document.write("</b></font></center>")
+//--->
+</script>
+</body>
+</html>
