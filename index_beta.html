@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
+    <!-- ... -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    <!-- ... -->
+    
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>zzzzzyc.github.io | zyc~</title>
 <meta name="generator" content="Jekyll v3.9.2" />
@@ -92,7 +99,20 @@
 </span></p>
 
 <h3 id="function-show_runtimewindowsettimeoutshow_runtime1000xnew-date04272022-210400ynew-datetygettime-xgettimem2460601000atmamathflooraba-a24bmathfloorbcb-b60cmathfloorb-b60dmathfloorc-c60runtime_spaninnerhtml本站已运行-a天b小时c分d秒show_runtime"><span id="runtime_span"></span><script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("04/27/2022 21:04:00");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="本站已运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script></h3>
+  
+      
+  <!-- ... -->
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
+    init({
+      el: '#waline',
+      serverURL: 'https://zycwebpinglunb-4ih3gvezq-zzzzzyc.vercel.app/',
+    });
+  </script>    
+      
+      
 <p>友情链接 <a href="https://diandaokongge.github.io">颠倒空格的个人网站</a>  <a href="https://bjjh201703.com">北京建华2017三班</a>  <a href="https://jh3news.bjjh201703.com">三班新闻(没建好，想去也不拦)</a><a href="https://diandaokongge.github.io/zyc">张一川转</a></p>
 
 <p>Copyright © 2022 zzzzzyc All Rights Reserved.</p>
