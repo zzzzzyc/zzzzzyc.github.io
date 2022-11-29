@@ -4,6 +4,10 @@
 
 ### This is my website
 
+## The English version of this website has stopped updating, please go to the [Chinese version](/index)
+
+
+
 Thanks to diandaokengge for the part of Zhang Yichuan
 
 You can click
