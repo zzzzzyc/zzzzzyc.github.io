@@ -1,24 +1,96 @@
-## 欢迎来到HTML面板
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-1.
-[魔法](https://zzzzzyc.github.io/qwq)
+     <script language="javascript">
+function getCurrentDate(){
+	var date=new Date();
+	var monthArray=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+	var weekArray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+	month=date.getMonth();
+	day=date.getDate();
+	if(day.toString().length==1){
+		day="0"+day.toString();
+	}
+	document.write(monthArray[month]+" "+day+", "+date.getFullYear()+" "+weekArray[date.getDay()]);
+}
+</script>(head)
+    
+    
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>欢迎来到HTML面板 | zzzzzyc.github.io</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="欢迎来到HTML面板" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="zyc~" />
+<meta property="og:description" content="zyc~" />
+<link rel="canonical" href="https://zzzzzyc.github.io/html.html" />
+<meta property="og:url" content="https://zzzzzyc.github.io/html.html" />
+<meta property="og:site_name" content="zzzzzyc.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="欢迎来到HTML面板" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"zyc~","headline":"欢迎来到HTML面板","url":"https://zzzzzyc.github.io/html.html"}</script>
+<!-- End Jekyll SEO tag -->
 
-2.
-[流星雨](https://zzzzzyc.github.io/54188)
+    <link rel="stylesheet" href="/assets/css/style.css?v=230bcd482563f05a36186e3977649902c9dd8357">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
-3.
-[3d](https://zzzzzyc.github.io/3d_dg)
+<!-- Setup Google Analytics -->
 
-4.
-[代码雨](https://zzzzzyc.github.io/dmy)
 
-5.
-[花雨](https://zzzzzyc.github.io/fr)
 
-6.
-[离子风暴](https://zzzzzyc.github.io/lzfb)
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
-7.
-[烟花](https://zzzzzyc.github.io/yh)
+<!-- end custom head snippets -->
 
-@2022 zzzzzyc 版权所有
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://zzzzzyc.github.io/">zzzzzyc.github.io</a></h1>
+      
+
+      <h2 id="欢迎来到html面板">欢迎来到HTML面板</h2>
+
+<p>1.
+<a href="https://zzzzzyc.github.io/qwq">魔法</a></p>
+
+<p>2.
+<a href="https://zzzzzyc.github.io/54188">流星雨</a></p>
+
+<p>3.
+<a href="https://zzzzzyc.github.io/3d_dg">3d</a></p>
+
+<p>4.
+<a href="https://zzzzzyc.github.io/dmy">代码雨</a></p>
+
+<p>5.
+<a href="https://zzzzzyc.github.io/fr">花雨</a></p>
+
+<p>6.
+<a href="https://zzzzzyc.github.io/lzfb">离子风暴</a></p>
+
+<p>7.
+<a href="https://zzzzzyc.github.io/yh">烟花</a></p>
+
+<script language="javascript">getCurrentDate();</script>
+      
+<p>Copyright © 2022 zzzzzyc All Rights Reserved.</p>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/zzzzzyc/zzzzzyc.github.io/edit/main/html.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
