@@ -17,7 +17,20 @@ function getCurrentDate(){
 	}
 	document.write(monthArray[month]+" "+day+", "+date.getFullYear()+" "+weekArray[date.getDay()]);
 }
-</script>(head)
+	</script>     
+	      <script language="javascript">
+function getyeargood(){
+	var date=new Date();
+	var monthArray=new Array(" "," "," "," "," "," "," "," "," "," "," "," ");
+	var weekArray=new Array("","","","","","","");
+	month=date.getMonth();
+	day=date.getDate();
+	if(day.toString().length==1){
+		day="0"+day.toString();
+	}
+	document.write( date.getFullYear());
+}
+	  </script>
     
     
 <!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -81,7 +94,8 @@ function getCurrentDate(){
 
 <script language="javascript">getCurrentDate();</script>
       
-<p>Copyright © 2022 zzzzzyc All Rights Reserved.</p>
+<p>Copyright © 2022 - </p><script language="javascript">getyeargood();</script><p>  zzzzzyc All Rights Reserved.</p>
+
 
 
       
