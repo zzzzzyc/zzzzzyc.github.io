@@ -11,7 +11,7 @@
 Thanks to diandaokengge for the part of Zhang Yichuan
 
 You can click
-[here](https://zzzzzyc.github.io/en/zyc)
+[here](https://zzzzzyc.github.io/en/zyc_en)
 Find Zhang Yichuan
 
 click
