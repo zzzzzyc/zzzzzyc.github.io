@@ -39,5 +39,9 @@
 
 [3](https://zzzzzyc.github.io/rj/%E6%9E%81%E7%AE%80%E5%8D%95%E8%A1%8C%E9%98%85%E8%AF%BB%E5%99%A8.zip)
 
+##### 垃圾库
+
+[zry](https://zzzzzyc.github.io/rj/lajiku/zry)
+
 # 收个尾
 ---------------------------------------------------------
