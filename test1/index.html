@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wble重构版</title>
+    <style>
+        .container { max-width: 800px; margin: 20px auto; padding: 20px; }
+        .status { padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; }
+        .control-group { margin: 15px 0; }
+        button { padding: 8px 15px; margin-right: 10px; background: #007bff; color: white; border: none; cursor: pointer; }
+        input[type="number"] { width: 80px; padding: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="status" id="status">Disconnected</div>
+        
+        <button onclick="connect()">连接</button>
+        <button onclick="disconnect()">Disconnect</button>
+        
+        <div class="control-group">
+            <button onclick="getBattery()">Get Battery</button>
+            <span id="battery"></span>
+        </div>
+
+        <div class="control-group">
+            <input type="number" id="strengthA" min="0" max="100" value="50">
+            <input type="number" id="strengthB" min="0" max="100" value="50">
+            <button onclick="setStrength()">Set Strength</button>
+        </div>
+    </div>
+
+<script>
+const BLE_DEVICE_NAME = "D-LAB ESTIM01";
+const SERVICE_A_UUID = "955a180a-0fe2-f5aa-a094-84b8d4f3e8ad";
+const BATTERY_LEVEL_UUID = "955a1500-0fe2-f5aa-a094-84b8d4f3e8ad";
+const PWM_AB2_UUID = "955a1504-0fe2-f5aa-a094-84b8d4f3e8ad";
+const PWM_A34_UUID = "955a1505-0fe2-f5aa-a094-84b8d4f3e8ad";
+const PWM_B34_UUID = "955a1506-0fe2-f5aa-a094-84b8d4f3e8ad";
+
+class Coyote2Controller {
+    constructor() {
+        this.device  = null;
+        this.server  = null;
+        this.service  = null;
+        this.characteristics  = new Map();
+    }
+
+    async connect() {
+        try {
+            this.device  = await navigator.bluetooth.requestDevice({ 
+                filters: [{ name: BLE_DEVICE_NAME }],
+                optionalServices: [SERVICE_A_UUID]
+            });
+            
+            this.device.addEventListener('gattserverdisconnected',  this.handleDisconnect); 
+            this.server  = await this.device.gatt.connect(); 
+            this.service  = await this.server.getPrimaryService(SERVICE_A_UUID); 
+            
+            await this.cacheCharacteristics(); 
+            updateStatus(`Connected to ${this.device.name}`); 
+        } catch (error) {
+            this.handleError(error); 
+        }
+    }
+
+    async cacheCharacteristics() {
+        const uuids = [BATTERY_LEVEL_UUID, PWM_AB2_UUID, PWM_A34_UUID, PWM_B34_UUID];
+        for (const uuid of uuids) {
+            const characteristic = await this.service.getCharacteristic(uuid); 
+            this.characteristics.set(uuid,  characteristic);
+        }
+    }
+
+    async readCharacteristic(uuid) {
+        this.checkConnection(); 
+        const characteristic = this.characteristics.get(uuid); 
+        const value = await characteristic.readValue(); 
+        return new DataView(value.buffer); 
+    }
+
+    async writeCharacteristic(uuid, data) {
+        this.checkConnection(); 
+        const characteristic = this.characteristics.get(uuid); 
+        await characteristic.writeValue(data); 
+    }
+
+    async getBatteryLevel() {
+        const data = await this.readCharacteristic(BATTERY_LEVEL_UUID); 
+        return data.getUint8(0); 
+    }
+
+    async setStrength(strengthA, strengthB) {
+        const realA = Math.floor(strengthA  * 11);
+        const realB = Math.floor(strengthB  * 11);
+        
+        let dataInt = (realA << 13) | (realB << 2);
+        const buffer = new ArrayBuffer(3);
+        new DataView(buffer).setUint16(0, dataInt >> 8);
+        new Uint8Array(buffer)[2] = dataInt & 0xFF;
+        
+        await this.writeCharacteristic(PWM_AB2_UUID,  buffer);
+    }
+
+    handleDisconnect() {
+        updateStatus('Disconnected');
+        this.device  = null;
+        this.server  = null;
+        this.service  = null;
+        this.characteristics.clear(); 
+    }
+
+    checkConnection() {
+        if (!this.device?.gatt.connected)  {
+            throw new Error('Device not connected');
+        }
+    }
+
+    handleError(error) {
+        console.error(error); 
+        updateStatus(`Error: ${error.message}`); 
+    }
+}
+
+// UI交互逻辑
+const controller = new Coyote2Controller();
+
+function updateStatus(text) {
+    document.getElementById('status').textContent  = text;
+}
+
+async function connect() {
+    await controller.connect(); 
+}
+
+async function disconnect() {
+    if (controller.device?.gatt.connected)  {
+        await controller.device.gatt.disconnect(); 
+    }
+}
+
+async function getBattery() {
+    try {
+        const level = await controller.getBatteryLevel(); 
+        document.getElementById('battery').textContent  = `${level}%`;
+    } catch (error) {
+        controller.handleError(error); 
+    }
+}
+
+async function setStrength() {
+    const strengthA = parseFloat(document.getElementById('strengthA').value)  / 100;
+    const strengthB = parseFloat(document.getElementById('strengthB').value)  / 100;
+    
+    try {
+        await controller.setStrength(strengthA,  strengthB);
+        updateStatus('Strength updated');
+    } catch (error) {
+        controller.handleError(error); 
+    }
+}
+</script>
+</body>
+</html>
